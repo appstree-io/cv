@@ -1,0 +1,273 @@
+body{
+    color: #414042;
+
+}
+.background{
+    float: left;
+    width: 100%;
+    background-image: url(../images/Landing_01.png);
+    background-size: 100% 100%;
+}
+.titleOfCv{
+    padding:15rem 0 12rem 0;
+    text-align: center;
+}
+.titleOfCv h1{
+    font-family: 'Jim Nightshade', cursive;
+    color: #fff;
+    margin: 0;
+}
+.titleOfCv h2{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.titleOfCv p{
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 24px;
+    color: #fff;
+}
+.titleOfCv button{
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    background: transparent;
+    border:1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+.titleOfCv button:hover{
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #fff;
+    color: #000;
+}
+
+
+
+
+
+.introducton{
+    float: left;
+    width: 100%;
+    background-color: #efefef;
+    padding: 10rem 0 17rem 0;
+    text-align: left;
+}
+.introducton h1{
+    font-family: 'Jim Nightshade', cursive;
+    color: #000;
+    font-style: italic;
+    margin: 0;
+
+}
+.introducton h2{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.introducton p{
+    color: #969696;
+}
+.introducton a {
+    padding: 8px 22px;
+    text-align: center;
+    background: transparent;
+    border:1px solid #000;
+    color: #000;
+    border-radius: 25px;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}
+.introducton  a:hover{
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #000;
+    color: #000;
+    text-decoration: none;
+}
+.intro-img{
+    position: relative;
+}
+.intro-border{
+    border: 4px solid #cccccc;
+    position: absolute;
+    right: 235px;
+    top: 100px;
+    float: left;
+    width:312px;
+    height:468px;
+    z-index:0;
+}
+.intro-img img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.portfolio{
+    float: left;
+    width: 100%;
+    padding: 4rem 0;
+}
+.portfolio h2{
+    font-size: 40px;
+    font-family: 'Jim Nightshade', cursive;
+    color: #000;
+}
+.portfolio p{
+    font-size:14px;
+    color: #8f8f8f;
+}
+.client{
+    float: left;
+    width: 100%;
+    background: url(../images/Landing_26.png);
+    background-size: cover;
+    padding: 5rem 0;
+    text-align: center;
+}
+.client p{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 1.5rem 5rem;
+}
+.client h2{
+    font-size: 36px;
+    font-family: 'Jim Nightshade', cursive;
+    color: #fff;
+    margin: 0;
+    line-height: .5;
+
+}
+.client small{
+    font-size: 15px;
+    font-family: 'Jim Nightshade', cursive;
+    color: #fff;
+}
+
+
+.contact{
+    float: left;
+    width: 100%;
+    padding: 8rem 0;
+}
+.contact h2{
+    font-size: 36px;
+    font-family: 'Jim Nightshade', cursive;
+    color: #000;
+    line-height: .5;
+}
+.contact p{
+    font-size: 15px;
+    color: #8f8f8f;
+    font-family: 'Lato', sans-serif;
+}
+.contact button{
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    background: transparent;
+    border:1px solid #000;
+    color: #000;
+    border-radius: 25px;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 25px 0 0 0;
+}
+.contact button:hover{
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #000;
+    color: #000;
+}
+.contact .form-control{
+    border: 0;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+    color: #000;
+}
+@media (max-width: 500px){
+    /* HOME START */
+    .video-landing {
+        padding: 20px 0;
+    }
+    .video-landing p{
+        padding: 0px 10px;
+    }
+    .video-landing h1{
+        font-size: 30px;
+    }
+    .home-text p {
+        font-size: 14px;
+    }
+    .home-text h1{
+        font-size: 30px;
+    }
+    .btn-down {
+        width: 140px;
+        height: 36px;
+        border-radius: 5px;
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width: 991px){
+
+    header{
+
+        background-color: #070707;
+    }
+    .btn-down {
+        margin: 0.5rem 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        border-top: 2px solid transparent;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+
+
+    .professional{
+        max-width: 100%;
+        padding: 20px 0;
+        margin: 20px 0 0 0;
+    }
+    .basic{
+        max-width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .advance{
+        max-width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .home-text {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+        color: #fff;
+    }
+}
