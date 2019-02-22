@@ -205,69 +205,35 @@ body{
 }
 @media (max-width: 500px){
     /* HOME START */
-    .video-landing {
-        padding: 20px 0;
+    .titleOfCv {
+        padding: 2rem 0 2rem 0;
+        text-align: center;
     }
-    .video-landing p{
-        padding: 0px 10px;
+    .introducton {
+        padding: 0rem 0 8rem 0;
     }
-    .video-landing h1{
+    .intro-img{
+        text-align: center;
+    }
+    .intro-img img{
+        position: relative;
+        width: 100%;
+    }
+    .client p {
+        padding: 1rem;
+    }
+    .titleOfCv h2 {
         font-size: 30px;
     }
-    .home-text p {
-        font-size: 14px;
+    .titleOfCv p {
+        font-size: 20px;
     }
-    .home-text h1{
-        font-size: 30px;
-    }
-    .btn-down {
-        width: 140px;
-        height: 36px;
-        border-radius: 5px;
-        font-size: 12px;
-
+    .intro-border {
+        right: 160px;
+        top: 35px;
     }
 }
 
 @media (max-width: 991px){
 
-    header{
-
-        background-color: #070707;
-    }
-    .btn-down {
-        margin: 0.5rem 0;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 0rem;
-        padding-right: 0rem;
-        padding-top: 0.7rem;
-        padding-bottom: 0.7rem;
-        border-top: 2px solid transparent;
-        text-transform: uppercase;
-        font-size: 15px;
-    }
-    .nav-item{
-        text-align: center;
-    }
-
-
-    .professional{
-        max-width: 100%;
-        padding: 20px 0;
-        margin: 20px 0 0 0;
-    }
-    .basic{
-        max-width: 100%;
-        margin: 20px 0 0 0;
-    }
-    .advance{
-        max-width: 100%;
-        margin: 20px 0 0 0;
-    }
-    .home-text {
-        padding-top: 6rem;
-        padding-bottom: 3rem;
-        color: #fff;
-    }
 }
