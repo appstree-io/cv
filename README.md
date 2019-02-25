@@ -1,5 +1,7 @@
 # cv
 
+[Demo of Cv project](https://suavis-technologies.github.io/cv/)
+
 # Desktop View
 
 ![macbook_pro](https://user-images.githubusercontent.com/47558086/53322064-14007880-38fc-11e9-8439-7f41afada91c.jpg)
