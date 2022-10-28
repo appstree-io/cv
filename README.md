@@ -1,6 +1,6 @@
 # cv
 
-[Demo of Cv project](https://suavis-technologies.github.io/cv/)
+[Demo of Cv project](https://appstree-io.github.io/cv/)
 
 # Desktop View
 
